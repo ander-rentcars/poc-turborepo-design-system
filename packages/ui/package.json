@@ -1,6 +1,10 @@
 {
   "name": "@ander-rentcars/ui",
-  "repository": "https://github.com/ander-rentcars/poc-turborepo-design-system.git",
+  "repository": {
+    "directory": "packages/ui",
+    "type": "git",
+    "uri": "https://github.com/ander-rentcars/poc-turborepo-design-system.git"
+  },
   "version": "1.0.0",
   "sideEffects": false,
   "license": "MIT",
@@ -20,8 +24,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@repo/eslint-config": "*",
+    "@repo/typescript-config": "*",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",
@@ -42,6 +46,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   }
 }
