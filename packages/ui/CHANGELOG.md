@@ -1,5 +1,11 @@
 # @ander-rentcars/ui
 
+## 3.0.1
+
+### Patch Changes
+
+- Test
+
 ## 3.0.0
 
 ### Major Changes
