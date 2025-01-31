@@ -1,5 +1,11 @@
 # @ander-rentcars/ui
 
+## 3.0.0
+
+### Major Changes
+
+- aeb3940: First package
+
 ## 2.0.0
 
 ### Major Changes
