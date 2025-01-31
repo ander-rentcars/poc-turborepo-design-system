@@ -15,6 +15,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - name: Creating .npmrc file
+        run: |
+          sed -i "s/INSERT_YOUR_GITHUB_ACCESS_TOKEN_HERE/$NPM_TOKEN/g" .npmrc
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Setup Node.js 20.x
         uses: actions/setup-node@v4
         with:
