@@ -1,1 +1,1 @@
-import "@acme/ui/globals.css"
+import "@ander-rentcars/ui/globals.css"

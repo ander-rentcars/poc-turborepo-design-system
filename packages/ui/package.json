@@ -1,5 +1,6 @@
 {
-  "name": "@acme/ui",
+  "name": "@ander-rentcars/ui",
+  "repository": "https://github.com/ander-rentcars/poc-turborepo-design-system.git",
   "version": "0.0.0",
   "sideEffects": false,
   "license": "MIT",
@@ -12,6 +13,7 @@
     "./globals.css": "./dist/globals.css"
   },
   "scripts": {
+    "build:styles": "postcss src/globals.css -o dist/globals.css",
     "build": "tsup",
     "dev": "tsup --watch",
     "lint": "eslint . --max-warnings 0",

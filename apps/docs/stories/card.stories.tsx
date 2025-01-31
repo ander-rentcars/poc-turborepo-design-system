@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@acme/ui/components/card";
+} from "@ander-rentcars/ui/components/card";
 
 const meta: Meta<typeof Card> = {
   component: Card,
