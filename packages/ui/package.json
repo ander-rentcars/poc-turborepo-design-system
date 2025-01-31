@@ -5,7 +5,7 @@
     "type": "git",
     "uri": "https://github.com/ander-rentcars/poc-turborepo-design-system.git"
   },
-  "version": "3.0.1",
+  "version": "0.0.1",
   "sideEffects": false,
   "license": "MIT",
   "exports": {
