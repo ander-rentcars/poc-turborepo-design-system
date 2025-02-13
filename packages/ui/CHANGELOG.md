@@ -1,5 +1,12 @@
 # @ander-rentcars/ui
 
+## 0.1.0
+
+### Minor Changes
+
+- 4179483: Added new components
+- b8e522d: Added new skeleton component
+
 ## 0.0.1
 
 ### Patch Changes
