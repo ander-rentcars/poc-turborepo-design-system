@@ -1,4 +1,4 @@
-import { cn } from "@ander-rentcars/lib/utils"
+import { cn } from "@ander-rentcars/ui/lib/utils"
 
 function Skeleton({
   className,
