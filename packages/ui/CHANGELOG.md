@@ -1,5 +1,11 @@
 # @ander-rentcars/ui
 
+## 0.1.1
+
+### Patch Changes
+
+- 94793cb: Fix utils import in new components
+
 ## 0.1.0
 
 ### Minor Changes
